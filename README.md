@@ -1,6 +1,6 @@
 # We-love-lensing
 
-![image](https://github.com/ChenWenzheng99/We-love-lensing/blob/main/image/Deflecting_light_from_the_Big_Bang_pillars.jpg)
+![image]((https://github.com/ChenWenzheng99/We-love-lensing/blob/main/image/deflection.png))
 
 ## This package include the following four parts:
 
