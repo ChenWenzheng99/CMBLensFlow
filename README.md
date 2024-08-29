@@ -11,7 +11,7 @@
 
 
 ## Dependencies:
-###Ⅰ. Lensing reconstruction:
+Ⅰ. Lensing reconstruction:
 1. Plancklens
 2. lenspyx-1.0.0(for Env.(alilens))
 3. lenspyx-2.0.0(for Env.(lens))
@@ -20,20 +20,20 @@
 6. Pylab
 7. Mpi4py(Optional)
    
-###Ⅱ.Foreground simulation:
+Ⅱ.Foreground simulation:
 1. Astropy
 2. PySM3
 3. pymaster
    
-###Ⅲ. CMB B-mode delensing
+Ⅲ. CMB B-mode delensing
 1. CMBlensplus
    
-###Ⅳ. Parameter constraint
+Ⅳ. Parameter constraint
 1. Cobaya
 2. CAMB
 
 
-### The structure of Lensing reconstruction is as follows:
+## The structure of Lensing reconstruction is as follows:
 
 1. Reconstruction_2048_Simons
    We simulate the CMB maps, Phi maps and the instrumental noise at 145 GHz.
