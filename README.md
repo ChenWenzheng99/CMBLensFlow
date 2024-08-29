@@ -1,6 +1,6 @@
 # We-love-lensing
 
-![image]((https://github.com/ChenWenzheng99/We-love-lensing/blob/main/image/deflection.png))
+![image](https://github.com/ChenWenzheng99/We-love-lensing/blob/main/image/deflection.png)
 
 ## This package include the following four parts:
 
