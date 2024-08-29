@@ -1,5 +1,5 @@
 # Lensing-tracers
-This package include the following four parts:
+## This package include the following four parts:
 
 Ⅰ. A full pipeline of the lensing reconstruction, including the simulation of CMB, lensing potential and noise maps. Internal reconstruction with CMB and external reconstruction with LSS tracers (e.g. CIB, galaxy number density).
 
@@ -10,8 +10,8 @@ This package include the following four parts:
 Ⅳ. Parameter constraint. This mainly relys on Cobaya.
 
 
-### Dependencies:
-Ⅰ. Lensing reconstruction:
+## Dependencies:
+###Ⅰ. Lensing reconstruction:
 1. Plancklens
 2. lenspyx-1.0.0(for Env.(alilens))
 3. lenspyx-2.0.0(for Env.(lens))
@@ -20,15 +20,15 @@ This package include the following four parts:
 6. Pylab
 7. Mpi4py(Optional)
    
-Ⅱ.Foreground simulation:
+###Ⅱ.Foreground simulation:
 1. Astropy
 2. PySM3
 3. pymaster
    
-Ⅲ. CMB B-mode delensing
+###Ⅲ. CMB B-mode delensing
 1. CMBlensplus
    
-Ⅳ. Parameter constraint
+###Ⅳ. Parameter constraint
 1. Cobaya
 2. CAMB
 
