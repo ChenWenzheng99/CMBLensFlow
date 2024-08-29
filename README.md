@@ -31,6 +31,7 @@
    
 Ⅲ. CMB B-mode delensing :raised_hands: :
 - CMBlensplus
+- Scipy
    
 Ⅳ. Parameter constraint :raised_hands: :
 - Cobaya
