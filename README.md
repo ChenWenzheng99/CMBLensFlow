@@ -5,7 +5,7 @@ A full pipeline of the lensing reconstruction, including the simulation of CMB, 
 ### Dependencies:
 1. Plancklens
 2. lenspyx-1.0.0(for Env.(alilens))
-3. lenspyx-2.0.1(for Env.(lens))
+3. lenspyx-2.0.0(for Env.(lens))
 4. Healpy
 5. Numpy
 6. Pylab
