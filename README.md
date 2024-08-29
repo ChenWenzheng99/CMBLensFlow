@@ -1,8 +1,13 @@
 # Lensing-tracers
-A full pipeline of the lensing reconstruction, including the simulation of CMB, lensing potential and noise maps. Internal reconstruction with CMB and external reconstruction with LSS tracers (e.g. CIB, galaxy number density).
+This package include the following four parts:
+Ⅰ. A full pipeline of the lensing reconstruction, including the simulation of CMB, lensing potential and noise maps. Internal reconstruction with CMB and external reconstruction with LSS tracers (e.g. CIB, galaxy number density).
+Ⅱ. Foreground map simulation based on a seven-parameter model.
+Ⅲ. CMB B-mode delensing, with two delensing methods (Gradient-order template method and Inverse-lensing method). Include not only the baseline simulation, but also signal+noise simulation used for debiasing. Auto- and cross- power spectra are calculated.
+Ⅳ. Parameter constraint. This mainly relys on Cobaya.
 
 
 ### Dependencies:
+Ⅰ. Lensing reconstruction:
 1. Plancklens
 2. lenspyx-1.0.0(for Env.(alilens))
 3. lenspyx-2.0.0(for Env.(lens))
@@ -10,9 +15,18 @@ A full pipeline of the lensing reconstruction, including the simulation of CMB, 
 5. Numpy
 6. Pylab
 7. Mpi4py(Optional)
+Ⅱ.Foreground simulation:
+1. Astropy
+2. PySM3
+3. pymaster
+Ⅲ. CMB B-mode delensing
+1. CMBlensplus
+Ⅳ. Parameter constraint
+1. Cobaya
+2. CAMB
 
 
-### The structure of this package is as follows:
+### The structure of Lensing reconstruction is as follows:
 
 1. Reconstruction_2048_Simons
    We simulate the CMB maps, Phi maps and the instrumental noise at 145 GHz.
