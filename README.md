@@ -1,8 +1,12 @@
 # Lensing-tracers
 This package include the following four parts:
+
 Ⅰ. A full pipeline of the lensing reconstruction, including the simulation of CMB, lensing potential and noise maps. Internal reconstruction with CMB and external reconstruction with LSS tracers (e.g. CIB, galaxy number density).
+
 Ⅱ. Foreground map simulation based on a seven-parameter model.
+
 Ⅲ. CMB B-mode delensing, with two delensing methods (Gradient-order template method and Inverse-lensing method). Include not only the baseline simulation, but also signal+noise simulation used for debiasing. Auto- and cross- power spectra are calculated.
+
 Ⅳ. Parameter constraint. This mainly relys on Cobaya.
 
 
