@@ -15,12 +15,15 @@ This package include the following four parts:
 5. Numpy
 6. Pylab
 7. Mpi4py(Optional)
+   
 Ⅱ.Foreground simulation:
 1. Astropy
 2. PySM3
 3. pymaster
+   
 Ⅲ. CMB B-mode delensing
 1. CMBlensplus
+   
 Ⅳ. Parameter constraint
 1. Cobaya
 2. CAMB
