@@ -26,11 +26,12 @@ The structure of this package is as follows:
 
 5. External reconstruction
   This folder contains the simulation of LSS tracers, such as CIB, galaxy number density. External reconstruction is based on these LSS tracers.
-  The combination between the external reconstruction and the internal reconstruction will improve the SNR of the phi reconstruction, especially on small scales, under current instrumental   noise level. This will therefore improve the delensing efficiency.
+  The combination between the external reconstruction and the internal reconstruction will improve the SNR of the phi reconstruction, especially on small scales, under current       
+  instrumental noise level. This will therefore improve the delensing efficiency.
 
 The code structure of one group internal reconstruction (e.g. the total Reconstruction_2048_Simons, the total Reconstruction_2048_Simons2, or every single process in Reconstruction_multi_process and Reconstruction_multi_process2) is as follows:
-![image]([https://github.com/ZhiliangMa/MPU6500-HMC5983-AK8975-BMP280-MS5611-10DOF-IMU-PCB/blob/main/img/IMU-V5-TOP.jpg](https://github.com/ChenWenzheng99/Lensing-tracers/blob/main/simons1.png))
+![image](https://github.com/ChenWenzheng99/Lensing-tracers/blob/main/image/simons1.png)
 
 The overall code structure of the 93GHz + 145GHz + CIB + LSST reconstruction is as follows:
-![image]([[https://github.com/ZhiliangMa/MPU6500-HMC5983-AK8975-BMP280-MS5611-10DOF-IMU-PCB/blob/main/img/IMU-V5-TOP.jpg](https://github.com/ChenWenzheng99/Lensing-tracers/blob/main/simons1.png](https://github.com/ChenWenzheng99/Lensing-tracers/blob/main/multi.png)))
+![image](https://github.com/ChenWenzheng99/Lensing-tracers/blob/main/image/multi.png)
 
