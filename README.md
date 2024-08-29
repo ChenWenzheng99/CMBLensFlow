@@ -2,38 +2,39 @@
 
 ![image](https://github.com/ChenWenzheng99/We-love-lensing/blob/main/image/deflection.png)
 (Figure from https://www.esa.int/Science_Exploration/Space_Science/Herschel/Herschel_helps_find_elusive_signals_from_the_early_Universe)
+
 ## This package include the following four parts:
 
-Ⅰ. A full pipeline of the lensing reconstruction, including the simulation of CMB, lensing potential and noise maps. Internal reconstruction with CMB and external reconstruction with LSS tracers (e.g. CIB, galaxy number density).
+Ⅰ. A full pipeline of **the lensing reconstruction**, including the simulation of CMB, lensing potential and noise maps. Internal reconstruction with CMB and external reconstruction with LSS tracers (e.g. CIB, galaxy number density).
 
-Ⅱ. Foreground map simulation based on a seven-parameter model.
+Ⅱ. **Foreground map simulation** based on a seven-parameter model.
 
-Ⅲ. CMB B-mode delensing, with two delensing methods (Gradient-order template method and Inverse-lensing method). Include not only the baseline simulation, but also signal+noise simulation used for debiasing. Auto- and cross- power spectra are calculated.
+Ⅲ. **CMB B-mode delensing**, with two delensing methods (Gradient-order template method and Inverse-lensing method). Include not only the baseline simulation, but also signal+noise simulation used for debiasing. Auto- and cross- power spectra are calculated.
 
-Ⅳ. Parameter constraint. This mainly relys on Cobaya.
+Ⅳ. **Parameter constraint**. This mainly relys on Cobaya, we adopt a 8-parameter model (*r* and 7 foreground paramters).
 
 
 ## Dependencies:
 Ⅰ. Lensing reconstruction:
-1. Plancklens
-2. lenspyx-1.0.0(for Env.(alilens))
-3. lenspyx-2.0.0(for Env.(lens))
-4. Healpy
-5. Numpy
-6. Pylab
-7. Mpi4py(Optional)
+- Plancklens
+- lenspyx-1.0.0(for Env.(alilens))
+- lenspyx-2.0.0(for Env.(lens))
+- Healpy
+- Numpy
+- Pylab
+- Mpi4py(Optional)
    
 Ⅱ.Foreground simulation:
-1. Astropy
-2. PySM3
-3. pymaster
+- Astropy
+- PySM3
+- pymaster
    
 Ⅲ. CMB B-mode delensing
-1. CMBlensplus
+- CMBlensplus
    
 Ⅳ. Parameter constraint
-1. Cobaya
-2. CAMB
+- Cobaya
+- CAMB
 
 
 ## The structure of Lensing reconstruction is as follows:
