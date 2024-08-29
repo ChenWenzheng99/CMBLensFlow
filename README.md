@@ -1,6 +1,9 @@
 # Lensing-tracers
 A full pipeline of the lensing reconstruction, including the simulation of CMB, lensing potential and noise maps. Internal reconstruction with CMB and external reconstruction with LSS tracers (e.g. CIB, galaxy number density).
 
+Dependencies:
+Plancklens, lenspyx-1.0.0(for Env.(alilens)), lenspyx-2.0.1(for Env.(lens)).
+
 The structure of this package is as follows:
 
 1. Reconstruction_2048_Simons
