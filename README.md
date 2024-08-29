@@ -15,27 +15,27 @@
 
 
 ## Dependencies:
-Ⅰ. Lensing reconstruction :raised_hands: :
-- Plancklens
-- lenspyx-1.0.0(for Env.(alilens))
-- lenspyx-2.0.0(for Env.(lens))
-- Healpy
+Ⅰ. Lensing reconstruction :raised_hands: : 
+- Plancklens  (https://github.com/carronj/plancklens)
+- lenspyx-1.0.0(for Env.(alilens))  (https://github.com/carronj/lenspyx/releases/tag/v1.0.0)
+- lenspyx-2.0.0(for Env.(lens))  (https://github.com/carronj/lenspyx/releases/tag/v2.0.0)
+- Healpy  (https://github.com/healpy/healpy)
 - Numpy
 - Pylab
 - Mpi4py(Optional)
    
 Ⅱ.Foreground simulation :raised_hands: :
-- Astropy
-- PySM3
-- pymaster
+- Astropy  (https://github.com/astropy/astropy)
+- PySM3  (https://pysm3.readthedocs.io/en/latest/index.html#installation)
+- pymaster  (https://namaster.readthedocs.io/en/latest/source/installation.html)
    
 Ⅲ. CMB B-mode delensing :raised_hands: :
-- CMBlensplus
+- CMBlensplus  (https://github.com/toshiyan/cmblensplus)
 - Scipy
    
 Ⅳ. Parameter constraint :raised_hands: :
-- Cobaya
-- CAMB
+- Cobaya  (https://github.com/CobayaSampler/cobaya)
+- CAMB  (https://github.com/cmbant/CAMB)
 
 
 ## The structure of Lensing reconstruction is as follows:
