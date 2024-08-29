@@ -67,3 +67,5 @@ The code structure of one group internal reconstruction (e.g. the total Reconstr
 The overall code structure of the 93GHz + 145GHz + CIB + LSST reconstruction is as follows:
 ![image](https://github.com/ChenWenzheng99/Lensing-tracers/blob/main/image/multi.png)
 
+The overall pipeline of the CMB delensing is as follows:
+![image](https://github.com/ChenWenzheng99/Lensing-tracers/blob/main/image/pipeline.png)
