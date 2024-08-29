@@ -15,7 +15,7 @@
 
 
 ## Dependencies:
-Ⅰ. Lensing reconstruction:
+Ⅰ. Lensing reconstruction :raised_hands: :
 - Plancklens
 - lenspyx-1.0.0(for Env.(alilens))
 - lenspyx-2.0.0(for Env.(lens))
@@ -24,15 +24,15 @@
 - Pylab
 - Mpi4py(Optional)
    
-Ⅱ.Foreground simulation:
+Ⅱ.Foreground simulation :raised_hands: :
 - Astropy
 - PySM3
 - pymaster
    
-Ⅲ. CMB B-mode delensing
+Ⅲ. CMB B-mode delensing :raised_hands: :
 - CMBlensplus
    
-Ⅳ. Parameter constraint
+Ⅳ. Parameter constraint :raised_hands: :
 - Cobaya
 - CAMB
 
