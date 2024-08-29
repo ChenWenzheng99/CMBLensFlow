@@ -17,8 +17,8 @@
 ## Dependencies:
 Ⅰ. Lensing reconstruction :raised_hands: : 
 - Plancklens  (https://github.com/carronj/plancklens)
-- lenspyx-1.0.0(for Env.(alilens))  (https://github.com/carronj/lenspyx/releases/tag/v1.0.0)
-- lenspyx-2.0.0(for Env.(lens))  (https://github.com/carronj/lenspyx/releases/tag/v2.0.0)
+- Lenspyx-1.0.0(for Env.(alilens))  (https://github.com/carronj/lenspyx/releases/tag/v1.0.0)
+- Lenspyx-2.0.0(for Env.(lens))  (https://github.com/carronj/lenspyx/releases/tag/v2.0.0)
 - Healpy  (https://github.com/healpy/healpy)
 - Numpy
 - Pylab
@@ -27,7 +27,7 @@
 Ⅱ.Foreground simulation :raised_hands: :
 - Astropy  (https://github.com/astropy/astropy)
 - PySM3  (https://pysm3.readthedocs.io/en/latest/index.html#installation)
-- pymaster  (https://namaster.readthedocs.io/en/latest/source/installation.html)
+- Pymaster  (https://namaster.readthedocs.io/en/latest/source/installation.html)
    
 Ⅲ. CMB B-mode delensing :raised_hands: :
 - CMBlensplus  (https://github.com/toshiyan/cmblensplus)
