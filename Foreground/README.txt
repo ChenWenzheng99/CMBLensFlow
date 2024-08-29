@@ -1,4 +1,4 @@
-This folder contain the simulation set of galactic foreground and instrumental white noise.
+This folder contains the simulation set of galactic foreground and instrumental white noise.
 This galactic foreground focus on the dust and synchrotron which are the major contamination to CMB polarization observation.
 
 1.We use a seven-parameter model to calculate their power, and draw realization respectively. 
