@@ -154,19 +154,19 @@ def gaussian_fg(nside, nus, seed, same=False, method=1, A_d_b = 14.30, alpha_d_b
 
     bin = 20
 
-    #I  # We fit the 7-parameters for fg intensity, finding that A_d_t0 = 60 and A_s_t0 = 9.7 with other paramters almost the same as the pol ones.
-    A_d_t0 = 3*2**0.5*A_d_b
+    #I  # We fit the 7-parameters for Ali sky fg intensity, finding that A_d_t0 = 60 and A_s_t0 = 9.7 with other paramters almost the same as the pol ones.
+    A_d_t0 = 3*2**0.5*A_d_b  # This value suits for Ali sky
     alpha_d_t0 = alpha_d_b
-    A_s_t0 = 3*2**0.5* A_s_b
+    A_s_t0 = 3*2**0.5* A_s_b  # This value suits for Ali sky
     alpha_s_t0 = alpha_s_b
 
-    #B mode
+    #B mode # For Ali sky, the 7-params for fg pol are: A_d_b0 = 14.3, alpha_d_b0 = -0.65, beta_d0 = 1.48, A_s_b0 = 2.4, alpha_s_b0 = -0.8, beta_s0 = -3.1, eps_ds0 = 0.001(we fixed to 0 in our procedure).
     A_d_b0 = A_d_b
     alpha_d_b0 = alpha_d_b
     A_s_b0 = A_s_b
     alpha_s_b0 = alpha_s_b
 
-    #E mode : 可自行更改，这里没用到，所以随便设了一组参数
+    #E mode : Simply the same as the B-mode
     A_d_e0 = A_d_b 
     alpha_d_e0 = alpha_d_b
     A_s_e0 = A_s_b
