@@ -154,7 +154,7 @@ def gaussian_fg(nside, nus, seed, same=False, method=1, A_d_b = 14.30, alpha_d_b
 
     bin = 20
 
-    #I
+    #I  # We fit the 7-parameters for fg intensity, finding that A_d_t0 = 60 and A_s_t0 = 9.7 with other paramters almost the same as the pol ones.
     A_d_t0 = 3*2**0.5*A_d_b
     alpha_d_t0 = alpha_d_b
     A_s_t0 = 3*2**0.5* A_s_b
