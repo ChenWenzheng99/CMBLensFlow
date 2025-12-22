@@ -46,9 +46,5 @@
   The combination between the external reconstruction and the internal reconstruction will improve the SNR of the phi reconstruction, especially on small scales, under current       
   instrumental noise level. This will therefore improve the delensing efficiency.
 
-
-The overall code structure of the 93GHz + 145GHz + CIB + LSST reconstruction is as follows:
-![image](https://github.com/ChenWenzheng99/Lensing-tracers/blob/main/image/multi.png)
-
 The overall pipeline of the CMB delensing is as follows:
 ![image](https://github.com/ChenWenzheng99/Lensing-tracers/blob/main/image/pipeline.png)
