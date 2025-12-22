@@ -1,4 +1,4 @@
-# ✨✨✨ CMBLensFlow: A CMB B-mode Delensing Forecast Pipeline ✨✨✨
+# ✨ CMBLensFlow: A CMB B-mode Delensing Forecast Pipeline ✨
 
 ![image](https://github.com/ChenWenzheng99/We-love-lensing/blob/main/image/deflection.png)  
 *(Image credit: © ESA)*  
