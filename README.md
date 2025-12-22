@@ -32,15 +32,18 @@ End-to-end parameter inference using **Cobaya**.
 
 ---
 
+## Related Publications
+
 Parts of this codebase have been used in the following studies:
 
-- **Delensing for Precision Cosmology: Optimizing Future CMB B-mode Surveys to Constrain r**  
+- **Delensing for Precision Cosmology: Optimizing Future CMB B-mode Surveys to Constrain** \( r \)  
   https://arxiv.org/abs/2502.18790  
-  *In this work, we consider parameterized Galactic foreground models and external delensing.*
+  *This work explores parameterized Galactic foreground models and the impact of external delensing on future CMB B-mode surveys.*
 
-- **From South to North: Leveraging Ground-Based LATs for Full-Sky CMB Delensing and Constraints on r**  
+- **From South to North: Leveraging Ground-Based LATs for Full-Sky CMB Delensing and Constraints on** \( r \)  
   https://arxiv.org/abs/2507.19897  
-  *This study emphasizes the important role of large-aperture telescopes located in the Northern Hemisphere for CMB B-mode delensing and constraints on r, combined with satellite telescope.
+  *This study highlights the important role of large-aperture ground-based telescopes in the Northern Hemisphere, in combination with satellite observations, for full-sky CMB B-mode delensing and improved constraints on* \( r \).
+
 
 ---
 
