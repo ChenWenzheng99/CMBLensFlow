@@ -46,5 +46,5 @@
   The combination between the external reconstruction and the internal reconstruction will improve the SNR of the phi reconstruction, especially on small scales, under current       
   instrumental noise level. This will therefore improve the delensing efficiency.
 
-The overall pipeline of the CMB delensing is as follows:
+## A sketch of the CMB delensing pipeline is as follows:
 ![image](https://github.com/ChenWenzheng99/Lensing-tracers/blob/main/image/pipeline.png)
