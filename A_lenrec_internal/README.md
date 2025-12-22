@@ -6,7 +6,7 @@ This repository provides a **user-friendly example template** for performing **i
 
 **Ⅰ.** Modify the configuration file **`config.yaml`** according to your scientific and technical requirements.
 
-**Ⅱ.** Refer to **`one.sh`** for an example workflow that runs the reconstruction pipeline and produces the reconstructed **QLMs** and corresponding **power spectra (Cl)**.
+**Ⅱ.** Refer to **`one.sh`** for an example workflow that runs the reconstruction pipeline and produces the reconstructed **QLMs** and corresponding **power spectra (Cl) estimate**.
 
 ---
 
