@@ -6,18 +6,6 @@
 
 **CMBLensFlow** is a comprehensive package designed to provide **useful tools and reference workflows for CMB B-mode delensing forecasts**.
 
-Parts of this codebase have been used in the following studies:
-
-- **Delensing for Precision Cosmology: Optimizing Future CMB B-mode Surveys to Constrain r**  
-  https://arxiv.org/abs/2502.18790  
-  *In this work, we consider parameterized Galactic foreground models and external delensing.*
-
-- **From South to North: Leveraging Ground-Based LATs for Full-Sky CMB Delensing and Constraints on r**  
-  https://arxiv.org/abs/2507.19897  
-  *This study emphasizes the important role of large-aperture telescopes located in the Northern Hemisphere for CMB B-mode delensing and constraints on r, combined with satellite telescope.
-
----
-
 ## Package Overview
 
 This package consists of the following main components:
@@ -41,6 +29,18 @@ Auto- and cross-power spectra between observed B-modes and lensing B-mode templa
 
 **Ⅴ. Parameter constraint example**  
 End-to-end parameter inference using **Cobaya**.
+
+---
+
+Parts of this codebase have been used in the following studies:
+
+- **Delensing for Precision Cosmology: Optimizing Future CMB B-mode Surveys to Constrain r**  
+  https://arxiv.org/abs/2502.18790  
+  *In this work, we consider parameterized Galactic foreground models and external delensing.*
+
+- **From South to North: Leveraging Ground-Based LATs for Full-Sky CMB Delensing and Constraints on r**  
+  https://arxiv.org/abs/2507.19897  
+  *This study emphasizes the important role of large-aperture telescopes located in the Northern Hemisphere for CMB B-mode delensing and constraints on r, combined with satellite telescope.
 
 ---
 
