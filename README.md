@@ -3,6 +3,12 @@
 ![image](https://github.com/ChenWenzheng99/We-love-lensing/blob/main/image/deflection.png)
 (Figure from https://www.esa.int/Science_Exploration/Space_Science/Herschel/Herschel_helps_find_elusive_signals_from_the_early_Universe)
 
+This package aims to provide useful and reference for CMB B-mode delensing forecast.
+
+Some of the codes are used in the following articles:
+* Delensing for Precision Cosmology: Optimizing Future CMB B-mode Surveys to Constrain r (https://arxiv.org/abs/2502.18790), where we consider the Galactic foreground models and external delensing.
+* From South to North: Leveraging Ground-Based LATs for Full-Sky CMB Delensing and Constraints on r (https://arxiv.org/abs/2507.19897), where we emphasis the important contribution froma large aperture telescope located in Northern hemisphere to CMB B-mode delensing and r constraint.
+
 ## This package include the following four parts :clap: :
 
 Ⅰ. A microwave sky simulation suite, including CMB, foreground and noise.
@@ -14,6 +20,7 @@
 Ⅳ. A sbatch script of **CMB B-mode delensing** based on simulation, with two delensing methods (Gradient-order template method and Inverse-lensing method). Auto- and cross- power spectra of observed B-modes and lensing B-mode template are calculated.
 
 Ⅴ. A **Parameter constraint** example. This mainly relys on Cobaya.
+
 
 
 ## Dependencies:
@@ -38,13 +45,6 @@
 - Cobaya  (https://github.com/CobayaSampler/cobaya)
 - CAMB  (https://github.com/cmbant/CAMB)
 
-
-## The structure of Lensing reconstruction is as follows:
-
-5. External reconstruction
-  This folder contains the simulation of LSS tracers, such as CIB, galaxy number density. External reconstruction is based on these LSS tracers.
-  The combination between the external reconstruction and the internal reconstruction will improve the SNR of the phi reconstruction, especially on small scales, under current       
-  instrumental noise level. This will therefore improve the delensing efficiency.
 
 ## A sketch of the CMB delensing pipeline is as follows:
 ![image](https://github.com/ChenWenzheng99/Lensing-tracers/blob/main/image/pipeline.png)
