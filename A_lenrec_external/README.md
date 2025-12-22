@@ -18,6 +18,7 @@ For more accurate and comprehensive modeling, **N-body–based simulations** may
   - Galaxy number density fluctuations  
 
   Both **imaging surveys** (e.g., *Euclid*, *LSST*) and **spectroscopic surveys** (e.g., *MUST*) are considered.
+  What you need to change is **simply the tracer distribution corresponding to your target survey**.
 
 - **`run_LSS_ones_MUST_example.ipynb`**  
   An example demonstrating how to run the LSS tracer simulations using the theoretical power spectra computed above.  
