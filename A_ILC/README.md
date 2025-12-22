@@ -1,8 +1,26 @@
-This is an ILC suite used for component separation. 
+This package provides an ILC (Internal Linear Combination) suite for component separation in CMB data analysis.
 
-ILC can be performed in pixel, harmonic, Fourier, needlet domain. See **pilc.py**, **hilc.py**, **filc.py**, **nilc.py**, respectively. 
-  (NILC part is developed by https://github.com/dreamthreebs/openilc, find detailed instruction there.)
+The ILC algorithm can be implemented in several domains:
 
-Besides, since the ILC method performs poorly in mitigating some point-like residuals from foreground (especially extragalactic point source, tSZ, etc.), one can deproject out certain components in the ILC procedure (i.e. constrained ILC).
+Pixel space (pilc.py)
 
-See **test_hilc_full_T.ipynb** for an example of T-field HILC implementation, with different extragalatic foreground deprojection.
+Harmonic space (hilc.py)
+
+Fourier space (filc.py)
+
+Needlet space (nilc.py)
+
+The NILC implementation is adapted from
+https://github.com/dreamthreebs/openilc
+, where detailed usage instructions can be found.
+
+Because standard ILC methods can be inefficient at suppressing certain localized foreground residuals—particularly extragalactic point sources, the thermal SZ effect (tSZ), and similar contaminants—the suite also supports constrained ILC techniques. These allow specific foreground components to be explicitly deprojected during the ILC optimization.
+
+In practice, we recommend using HILC or NILC, as they consistently outperform pixel- and Fourier-based implementations. A common and effective strategy is:
+
+NILC for cleaning SAT-observed B-mode maps, and
+
+HILC for cleaning LAT-observed T/E/B maps.
+
+An example of a full-sky HILC implementation for temperature data, including the deprojection of multiple extragalactic foreground components, is provided in
+test_hilc_full_T.ipynb.
