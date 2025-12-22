@@ -14,7 +14,7 @@ Parts of this codebase have been used in the following studies:
 
 - **From South to North: Leveraging Ground-Based LATs for Full-Sky CMB Delensing and Constraints on r**  
   https://arxiv.org/abs/2507.19897  
-  *This study emphasizes the critical role of large-aperture telescopes located in the Northern Hemisphere for CMB B-mode delensing and constraints on* \( r \).
+  *This study emphasizes the important role of large-aperture telescopes located in the Northern Hemisphere for CMB B-mode delensing and constraints on r, combined with satellite telescope.
 
 ---
 
