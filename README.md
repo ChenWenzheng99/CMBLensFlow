@@ -87,3 +87,11 @@ A schematic overview of the CMB delensing workflow implemented in this package i
 ---
 
 This package is intended for **simulation-based forecasts**, methodological development, and end-to-end validation of **CMB B-mode delensing strategies**.
+
+---
+
+## Notes and Contributions
+
+Given the limitations of the author’s experience and available resources, **any kind suggestions, feedback, or corrections are sincerely welcomed**.  
+This project aims to serve as a collaborative effort toward building a more robust and practical **CMB B-mode delensing workflow**.
+
