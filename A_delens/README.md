@@ -18,7 +18,8 @@ The scripts **`sbatch_gradient_template`** and **`sbatch_inverse_lensing`** offe
 
 To run these scripts, you only need to:
 1. Modify the **input data directories** specified at the beginning of each script  
-2. Set the relevant **configuration parameters** at the end of the scripts  
+2. Set the relevant **configuration parameters** at the end of the scripts
+3. The scripts are MPI-supported
 
 ---
 
