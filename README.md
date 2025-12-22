@@ -1,7 +1,8 @@
 # ✨✨✨ Lensflow ✨✨✨
 
 ![image](https://github.com/ChenWenzheng99/We-love-lensing/blob/main/image/deflection.png)  
-*(Figure from https://www.esa.int/Science_Exploration/Space_Science/Herschel/Herschel_helps_find_elusive_signals_from_the_early_Universe)*
+*(Image credit: © ESA)*  
+
 
 **Lensflow** is a comprehensive package designed to provide **useful tools and reference workflows for CMB B-mode delensing forecasts**.
 
