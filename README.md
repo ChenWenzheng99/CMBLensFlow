@@ -9,7 +9,7 @@ Parts of this codebase have been used in the following studies:
 
 - **Delensing for Precision Cosmology: Optimizing Future CMB B-mode Surveys to Constrain r**  
   https://arxiv.org/abs/2502.18790  
-  *In this work, we consider realistic Galactic foreground models and external delensing.*
+  *In this work, we consider parameterized Galactic foreground models and external delensing.*
 
 - **From South to North: Leveraging Ground-Based LATs for Full-Sky CMB Delensing and Constraints on r**  
   https://arxiv.org/abs/2507.19897  
