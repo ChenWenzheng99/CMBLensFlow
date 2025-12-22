@@ -1,10 +1,10 @@
-# ✨✨✨ Lensflow ✨✨✨
+# ✨✨✨ CMBLensFlow: A CMB B-mode Delensing Forecast Pipeline ✨✨✨
 
 ![image](https://github.com/ChenWenzheng99/We-love-lensing/blob/main/image/deflection.png)  
 *(Image credit: © ESA)*  
 
 
-**Lensflow** is a comprehensive package designed to provide **useful tools and reference workflows for CMB B-mode delensing forecasts**.
+**CMBLensFlow** is a comprehensive package designed to provide **useful tools and reference workflows for CMB B-mode delensing forecasts**.
 
 Parts of this codebase have been used in the following studies:
 
