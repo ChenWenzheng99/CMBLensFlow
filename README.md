@@ -36,10 +36,9 @@ End-to-end parameter inference using **Cobaya**.
 
 Parts of this codebase have been used in the following studies:
 
-- **Enhancing Primordial B-mode Detection: Comprehensive Delensing Pipelines for Improved Sensitivity to ** \( r \)  
+- Enhancing Primordial B-mode Detection: Comprehensive Delensing Pipelines for Improved Sensitivity to  \( r \)  
   https://arxiv.org/abs/2403.16726 
   *This work focus on the discussion of the two delensing methods and their performance on tightening \( r \)  constraint.*
-
 
 - **Delensing for Precision Cosmology: Optimizing Future CMB B-mode Surveys to Constrain** \( r \)  
   https://arxiv.org/abs/2502.18790  
